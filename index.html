@@ -5,18 +5,26 @@
   
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Hexo</title>
+  <link rel="dns-prefetch" href="https://gulanganshang.github.io">
+  <title>孤狼暗殇的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+  <meta name="description" content="学无止境">
+<meta property="og:type" content="website">
+<meta property="og:title" content="孤狼暗殇的博客">
+<meta property="og:url" content="https://gulanganshang.github.io/index.html">
+<meta property="og:site_name" content="孤狼暗殇的博客">
+<meta property="og:description" content="学无止境">
+<meta property="article:author" content="wzx">
+<meta property="article:tag" content="Java">
+<meta property="article:tag" content="springboot">
+<meta property="article:tag" content="mysql">
+<meta property="article:tag" content="oracle">
+<meta property="article:tag" content="前端三剑客">
+<meta property="article:tag" content="程序猿">
+<meta property="article:tag" content="程序小白">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="孤狼暗殇的博客" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -46,8 +54,10 @@
 			<img src="" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/">John Doe</a></h1>
+		  <h1 class="header-author"><a href="/">wzx</a></h1>
 		</hgroup>
+		
+		<p class="header-subtitle">生死看淡，不服就干</p>
 		
 
 		<nav class="header-menu">
@@ -104,8 +114,10 @@
 				<img src="" class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author">John Doe</h1>
+			  <h1 class="header-author js-header-author">wzx</h1>
 			</hgroup>
+			
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>生死看淡，不服就干<i class="icon icon-quo-right"></i></p>
 			
 			
 			
@@ -151,6 +163,83 @@
           </div>
           <div id="js-content" class="content-ll">
             
+  
+    <article id="post-Linux常用命令大全" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/01/09/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/">Linux常用命令大全</a>
+    </h1>
+  
+
+        
+        <a href="/2020/01/09/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/" class="archive-article-date">
+  	<time datetime="2020-01-09T02:02:33.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-09</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h5 id="Linux管理文件和目录的命令"><a href="#Linux管理文件和目录的命令" class="headerlink" title="Linux管理文件和目录的命令"></a>Linux管理文件和目录的命令</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">pwd---显示当前目录</span><br><span class="line"></span><br><span class="line">ls---查看目录下的内容</span><br><span class="line"></span><br><span class="line">cd---改变所在目录</span><br><span class="line"></span><br><span class="line">cat---显示文件的内容</span><br><span class="line"></span><br><span class="line">grep---在文件中查找某字符</span><br><span class="line"></span><br><span class="line">cp---复制文件</span><br><span class="line"></span><br><span class="line">touch---创建文件</span><br><span class="line"></span><br><span class="line">mv---移动文件</span><br><span class="line"></span><br><span class="line">rm---删除文件</span><br><span class="line"></span><br><span class="line">rmdir---删除目录</span><br><span class="line"></span><br><span class="line">vi---编辑文件</span><br></pre></td></tr></table></figure>
+<p>#####1.1 pwd命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">输入pwd命令，Linux会输出当前目录</span><br></pre></td></tr></table></figure>
+<p>#####1.2 cd命令0</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd命令用来改变所在目录。</span><br><span class="line">cd &#x2F;      转到根目录中 </span><br><span class="line">cd ~     转到&#x2F;home&#x2F;user用户目录下 </span><br><span class="line">cd &#x2F;usr 转到根目录下的usr目录中-------------绝对路径 </span><br><span class="line">cd test 转到当前目录下的test子目录中-------相对路径</span><br></pre></td></tr></table></figure>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">常用的linux命令</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/01/09/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
   
     <article id="post-Hello-World-0" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
@@ -310,7 +399,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2019 John Doe
+    		&copy; 2020 wzx
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -394,6 +483,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">第一篇博客！</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">常用的linux命令</a>
               </li>
             
             <div class="clearfix"></div>
